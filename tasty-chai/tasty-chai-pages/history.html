@@ -30,12 +30,19 @@
 
   <body>
     <!-- Navigation -->
-    <img
-      style="position: absolute; z-index: 1; margin-left: 20px"
-      src="img/logo-edit.png"
-    />
+    <a href="index.html">
+      <img
+        style="position: absolute; z-index: 1; margin-left: 20px"
+        src="img/logo-edit.png"
+      />
+    </a>
     <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
       <div class="container">
+        <a
+          class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none"
+          href="#"
+          >Tasty Chai</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -47,7 +54,11 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div
+          class="collapse navbar-collapse"
+          id="navbarResponsive"
+          style="text-align: right;"
+        >
           <ul class="navbar-nav mx-auto">
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="index.html"
@@ -143,10 +154,7 @@
       </div>
     </section>
 
-    <footer
-      class="footer text-faded text-center py-5"
-      style="position: absolute; bottom: 0; width: 100%;"
-    >
+    <footer class="footer text-faded text-center py-5">
       <div class="container">
         <p class="m-0 small">Copyright &copy; Tasty Chai 2019</p>
       </div>
